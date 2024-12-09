@@ -9,9 +9,9 @@ Learning Rate (domyślnie 0.01)
 Zamiana SGD na Adam
 
 Wnioski: 
-Maksymalna Dokładność: Osiągnięta przy średniej wielkości batcha (32) oraz optymalizatorze SGD, co wskazuje na wysoką skuteczność w tym przypadku.
-Minimalna Dokładność i Najmniejsza Stabilność: Duży batch (256) powoduje niższą i bardzo zmienną dokładność, co może wskazywać, że nie jest to optymalne ustawienie.
-Największa Stabilność: Mały batch (16) zapewnia wysoką i przewidywalną dokładność, co sugeruje lepsze generalizowanie modelu.
+- Maksymalna Dokładność: Osiągnięta przy średniej wielkości batcha (32) oraz optymalizatorze SGD, co wskazuje na wysoką skuteczność w tym przypadku.
+- Minimalna Dokładność i Najmniejsza Stabilność: Duży batch (256) powoduje niższą i bardzo zmienną dokładność, co może wskazywać, że nie jest to optymalne ustawienie.
+- Największa Stabilność: Mały batch (16) zapewnia wysoką i przewidywalną dokładność, co sugeruje lepsze generalizowanie modelu.
 
 
 Dokładne wyniki testów:
@@ -39,4 +39,3 @@ Dodatkowo:
 - najmniejszą pojedyńczą dokładność uzyskano dla konfiguracji {'optimizer': 'SGD'	 'epochs': 10	 'batch_size': 256	 'lr': 0.01}, 91.87%, epoka nr 1
 - największą pojedyńczą dokładność uzyskano dla konfiguracji {'optimizer': 'SGD'	 'epochs': 20	 'batch_size': 256	 'lr': 0.01} 97.94%, epoka nr 19
 
-  Wniosek: 
